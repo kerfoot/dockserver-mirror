@@ -18,6 +18,6 @@ to reflect the settings on the local machine.
 
 Modify the rules file:
 
-   dsvr-rsync-rules.txt
+    dsvr-rsync-rules.txt
 
 if you want to exclude or include additional files.
