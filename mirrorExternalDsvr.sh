@@ -69,7 +69,7 @@ REMOTE_DIRS='from-glider logs to-glider';
 # ============================================================================
 
 # Validate configuration variables
-if [ -z "$LOCAL_DEST_ROOT" -o ! -f "$LOCAL_DEST_ROOT" ]
+if [ -z "$LOCAL_DEST_ROOT" -o ! -d "$LOCAL_DEST_ROOT" ]
 then
     echo "LOCAL_DEST_ROOT is not valid!" >&2;
     exit 1;
